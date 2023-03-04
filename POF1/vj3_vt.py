@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
+# graf je previse precizan jer je koristena samo jedna vrijednost akcelereacije
+# treba izvuc t iz formule
+
 # (t, v) mjerenja
 x1, y1 = (1.05, 0.116781)
 x2, y2 = (1.206667, 0.134206)
