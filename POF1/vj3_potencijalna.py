@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
-# # Data for plotting
-# x = np.arange(0, 2, 0.01)
-# y = 1.88265*x - 1.25485
 
 # (t, energija) mjerenja
 x1, y1 = (1.05, -0.28364)
@@ -35,14 +32,13 @@ plt.plot(x10, y10, 'bo')
 
 
 ax.set(xlabel='$t$ [s]', ylabel='$E_{pot}$ [J]')
-#        title='About as simple as it gets, folks')
 ax.grid()
 
 ax = plt.gca()
 ax.set_xlim([1, 2.6])
 ax.set_ylim([-2, 0])
 
-# plt.plot(x, y, "-r", label="log$s$(log$t$)")
+# potrebne tockice umjesto crte u legendi za mjerenja
 plt.plot(x1, y1, "-b", label="mjerenja")
 plt.legend(loc="upper right")
 
