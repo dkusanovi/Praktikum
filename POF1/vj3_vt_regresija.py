@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
+# treba izvuc ovisnost o t iz formule u skripti
+
 # Data for plotting
 x = np.arange(0, 10, 0.01)
 y = 0.09656*x
@@ -42,7 +44,7 @@ ax.set_xlim([1, 2.6])
 ax.set_ylim([0.1, 0.25])
 
 
-plt.plot(x, y, "-r", label="$s(v)$")
+plt.plot(x, y, "-r", label="$v(t)$")
 plt.plot(x1, y1, "-b", label="mjerenja", color="green")
 plt.legend(loc="upper left")
 

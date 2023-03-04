@@ -3,6 +3,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
+# nije potrebno radit i lin. regresiju i obicnu metodu
+
+# treba izvuc ovisnost iz formula u skipti
+
 # Data for plotting
 x = np.arange(0, 10, 0.01)
 y = 0.04828*x

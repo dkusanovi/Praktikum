@@ -3,6 +3,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
+# # # Data for plotting
+# x = np.arange(0, 10, 0.01)
+# y = (1/2)*0.11122*(x)
+
 # (t^2, s) mjerenja
 x1, y1 = (1.05**2, 0.055)
 x2, y2 = (1.206667**2, 0.085)
@@ -17,6 +21,7 @@ x10, y10 = (2.53333**2, 0.325)
 
 
 fig, ax = plt.subplots()
+# ax.plot(x, y, color='red')
 plt.plot(x1, y1, 'bo', color="purple")
 plt.plot(x2, y2, 'bo', color="purple")
 plt.plot(x3, y3, 'bo', color="purple")
@@ -37,7 +42,7 @@ ax = plt.gca()
 ax.set_xlim([1, 7])
 ax.set_ylim([0.05, 0.35])
 
-
+# plt.plot(x, y, "-r", label="$v(t)$")
 plt.plot(x1, y1, "-b", label="mjerenja", color="purple")
 plt.legend(loc="upper left")
 
