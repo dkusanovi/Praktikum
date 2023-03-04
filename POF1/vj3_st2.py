@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
-# # # Data for plotting
-# x = np.arange(0, 10, 0.01)
-# y = (1/2)*0.11122*(x)
 
 # (t^2, s) mjerenja
 x1, y1 = (1.05**2, 0.055)
