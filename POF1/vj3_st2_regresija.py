@@ -40,7 +40,6 @@ plt.plot(x10, y10, 'bo', color="purple")
 
 
 ax.set(xlabel='$t^2$ [s$^2$]', ylabel='$s$ [m]')
-#        title='About as simple as it gets, folks')
 ax.grid()
 
 ax = plt.gca()
