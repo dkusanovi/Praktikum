@@ -1,1 +1,0 @@
-print("Daj mi ga vise prenesi na git")
