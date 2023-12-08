@@ -7,7 +7,7 @@ import math
 # Data for plotting
 x = np.arange(3000, 6000, 0.01)
 
-y = (50*5.82)/(np.sqrt((x-(1/(x*5*10**(-8))))**2+(50+204)**2))
+y = (50*5.82)/(np.sqrt((x-(1/(x*5*10**(-8))))**2+(50+205.26)**2))
 
 
 # (omega, U_TO) mjerenja
